@@ -19,7 +19,6 @@ window.addEventListener('load', () => {
 
 window.addEventListener('scroll', () => {
     if (window.scrollY + window.innerHeight >= document.body.offsetHeight) {
-        console.log('aqui');
         gerarImagem();
     }
 });
